@@ -1,0 +1,561 @@
+/* Reset & Basics */
+
+*, table, tr, td, span, img, h1, h2, h3, h4, h5, h6, p, ul, ol, li
+  margin: 0
+  padding: 0
+  list-style: none
+
+body
+  font-family: Arial
+  font-size: 10pt
+
+h1
+  font-size: 30pt
+  font-family: Tahoma
+  margin-top: 40px
+  margin-bottom: 16px
+  letter-spacing: 10px
+
+h2
+  font-size: 10pt
+  font-family: Tahoma
+  font-weight: normal
+  letter-spacing: 8px
+  margin-bottom: 42px
+
+h3
+  font-size: 14pt
+  font-family: Arial
+  margin-bottom: 18px
+  text-transform: uppercase
+  letter-spacing: 2px
+
+  span.fa-solid
+    margin-right: 6px
+
+h4
+  font-size: 10pt
+
+h5
+  font-size: 10pt
+  margin: 6px 0 8px
+
+/* Reset & Basics */
+
+/* Main Structure */
+
+.col1
+  width: 16px
+  vertical-align: top
+
+.col2
+  width: 258px
+  vertical-align: top
+
+.col3
+  width: 24px
+  vertical-align: top
+
+.col4
+  vertical-align: top
+
+.col5
+  width: 30px
+  vertical-align: top
+
+.row1
+  height: 40px
+
+  &.smaller
+    height: 18px
+
+.row4
+  height: 86px
+
+  &.smaller
+    height: 76px
+
+/* Main Structure */
+
+body table tr
+  .margin_40
+    margin-top: 40px
+
+  .margin_74
+    margin-top: 74px
+
+  .margin_60
+    margin-top: 60px
+
+  .margin_90
+    margin-top: 90px
+
+  .margin_8
+    margin-top: 8px
+
+  .margin_16
+    margin-top: 16px
+
+  .margin_20
+    margin-top: 20px
+    display: block
+
+  .margin_30
+    margin-top: 30px
+    display: block
+
+.margin_v1
+  margin-bottom: 20px
+
+.margin_v2
+  margin-bottom: 40px
+
+.col2 h3
+  width: 215px
+
+.pub_icon img
+  width: 30px
+  margin-right: 0
+
+.awards_icon img
+  width: auto
+  height: 24px
+
+.profile_icon img
+  margin-right: 5px
+
+.col2 table
+  width: 100%
+
+  tr
+    &.center
+      text-align: center
+
+      img
+        margin: 10px 0 54px
+
+    .bg
+      height: 34px
+
+  .padding
+    width: 16px
+
+    &.smaller
+      width: 22px
+
+    &.padding_bottom
+      height: 18px
+
+ul.contact li
+  margin-bottom: 8px
+
+  span.fa-solid
+    margin-right: 6px
+
+.col2
+  .space
+    display: block
+    width: 100%
+    height: 40px
+
+  .space2
+    display: block
+    width: 100%
+    height: 8px
+
+table.skills
+  width: 206px
+
+  tr
+    height: 26px
+    vertical-align: top
+
+  td
+    width: 10px
+    text-align: center
+
+  p
+    width: 134px
+    text-align: left
+
+  strong
+    font-size: 12pt
+
+.col2 ul
+  &.disc li
+    list-style: disc outside
+    margin-left: 16px
+    margin-bottom: 12px
+
+  &.inline li
+    margin-bottom: 6px
+
+.width_214
+  width: 214px
+
+.bg_space
+  width: 100%
+  height: 166px
+
+.col4
+  .info
+    width: 100%
+    text-align: center
+    height: 166px
+
+  h3
+    margin-top: 36px
+
+    &.smaller
+      margin-top: 16px
+
+p.work
+  margin-bottom: 10px
+
+ul.bullets li
+  list-style: disc inside
+
+table
+  &.work
+    text-align: right
+    font-weight: bold
+
+    .left
+      text-align: left
+
+  &.ref
+    width: 100%
+
+    h5
+      margin: 6px 0
+
+/* Format A4 */
+
+.col4.format-a4
+  width: 498px
+
+.row3
+  &.format-a4
+    height: 30px
+
+  &.smaller.format-a4
+    height: 70px
+
+table.work
+  .format-a4
+    width: 120px
+
+  .left.format-a4
+    width: 348px
+
+.col2
+  .space.none.format-a4
+    display: block
+    height: 18px
+
+  .space2.none.format-a4
+    display: block
+
+/* Format A4 */
+
+/* Format US Letter */
+
+.col4.format-us-letter
+  width: 490px
+
+.row3
+  &.format-us-letter
+    height: 8px
+
+  &.smaller.format-us-letter
+    height: 52px
+
+table.work
+  .format-us-letter
+    width: 120px
+
+  .left.format-us-letter
+    width: 368px
+
+.col2
+  .space.none.format-us-letter, .space2.none.format-us-letter
+    display: none
+
+.row4
+  &.format-us-letter
+    height: 80px
+
+  &.smaller.format-us-letter
+    height: 50px
+
+/* Format US Letter */
+
+/* Color Default */
+
+.bg1.color-default
+  background: #d39fa4
+
+.bg2.color-default
+  background: #f8e6e8
+
+table.skills tr.color-default
+  strong
+    color: #e1d4d5
+
+  &.one strong.first
+    color: #d0969a
+
+  &.two strong
+    &.first, &.second
+      color: #d0969a
+
+  &.three strong
+    &.first, &.second, &.third
+      color: #d0969a
+
+  &.four strong
+    &.first, &.second, &.third, &.fourth
+      color: #d0969a
+
+  &.five strong
+    &.first, &.second, &.third, &.fourth, &.fifth
+      color: #d0969a
+
+ul.contact.color-default
+  color: #121212
+
+h1.color-default, h2.color-default
+  color: #fff
+
+.color-default
+  color: #121212
+
+h5.color-default
+  color: #808080
+
+/* Color Default */
+
+/* Color Carrot */
+
+.bg1.color-carrot
+  background: #dc8463
+
+.bg2.color-carrot
+  background: #f2d9bb
+
+table.skills tr.color-carrot
+  strong
+    color: #dec7ad
+
+  &.one strong.first
+    color: #dc8463
+
+  &.two strong
+    &.first, &.second
+      color: #dc8463
+
+  &.three strong
+    &.first, &.second, &.third
+      color: #dc8463
+
+  &.four strong
+    &.first, &.second, &.third, &.fourth
+      color: #dc8463
+
+  &.five strong
+    &.first, &.second, &.third, &.fourth, &.fifth
+      color: #dc8463
+
+ul.contact.color-carrot
+  color: #121212
+
+h1.color-carrot, h2.color-carrot
+  color: #fff
+
+.color-carrot
+  color: #121212
+
+h5.color-carrot
+  color: #808080
+
+/* Color Carrot */
+
+/* Color Purple */
+
+.bg1.color-purple
+  background: #6a6f95
+
+.bg2.color-purple
+  background: #d2d4e2
+
+table.skills tr.color-purple
+  strong
+    color: #c4c7dc
+
+  &.one strong.first
+    color: #6a6f95
+
+  &.two strong
+    &.first, &.second
+      color: #6a6f95
+
+  &.three strong
+    &.first, &.second, &.third
+      color: #6a6f95
+
+  &.four strong
+    &.first, &.second, &.third, &.fourth
+      color: #6a6f95
+
+  &.five strong
+    &.first, &.second, &.third, &.fourth, &.fifth
+      color: #6a6f95
+
+ul.contact.color-purple
+  color: #121212
+
+h1.color-purple, h2.color-purple
+  color: #fff
+
+.color-purple
+  color: #121212
+
+h5.color-purple
+  color: #808080
+
+/* Color Purple */
+
+/* Color Red */
+
+.bg1.color-red
+  background: #a71e35
+
+.bg2.color-red
+  background: #fbd0d0
+
+table.skills tr.color-red
+  strong
+    color: #fac0c0
+
+  &.one strong.first
+    color: #a71e35
+
+  &.two strong
+    &.first, &.second
+      color: #a71e35
+
+  &.three strong
+    &.first, &.second, &.third
+      color: #a71e35
+
+  &.four strong
+    &.first, &.second, &.third, &.fourth
+      color: #a71e35
+
+  &.five strong
+    &.first, &.second, &.third, &.fourth, &.fifth
+      color: #a71e35
+
+ul.contact.color-red
+  color: #121212
+
+h1.color-red, h2.color-red
+  color: #fff
+
+.color-red
+  color: #121212
+
+h5.color-red
+  color: #808080
+
+/* Color Red */
+
+/* Color Blue */
+
+.bg1.color-blue
+  background: #2e3976
+
+.bg2.color-blue
+  background: #d8dbee
+
+table.skills tr.color-blue
+  strong
+    color: #cdd0e9
+
+  &.one strong.first
+    color: #2e3976
+
+  &.two strong
+    &.first, &.second
+      color: #2e3976
+
+  &.three strong
+    &.first, &.second, &.third
+      color: #2e3976
+
+  &.four strong
+    &.first, &.second, &.third, &.fourth
+      color: #2e3976
+
+  &.five strong
+    &.first, &.second, &.third, &.fourth, &.fifth
+      color: #2e3976
+
+ul.contact.color-blue
+  color: #121212
+
+h1.color-blue, h2.color-blue
+  color: #fff
+
+.color-blue
+  color: #121212
+
+h5.color-blue
+  color: #808080
+
+/* Color Blue */
+
+/* Color Dark */
+
+.bg1.color-dark
+  background: #373b40
+
+.bg2.color-dark
+  background: #e2e2e2
+
+table.skills tr.color-dark
+  strong
+    color: #cfcfce
+
+  &.one strong.first
+    color: #121212
+
+  &.two strong
+    &.first, &.second
+      color: #121212
+
+  &.three strong
+    &.first, &.second, &.third
+      color: #121212
+
+  &.four strong
+    &.first, &.second, &.third, &.fourth
+      color: #121212
+
+  &.five strong
+    &.first, &.second, &.third, &.fourth, &.fifth
+      color: #121212
+
+ul.contact.color-dark
+  color: #121212
+
+h1.color-dark, h2.color-dark
+  color: #fff
+
+.color-dark
+  color: #121212
+
+h5.color-dark
+  color: #808080
+
+/* Color Dark */

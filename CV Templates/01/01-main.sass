@@ -1,0 +1,151 @@
+/** Reset & Basics **/
+
+*
+  margin: 0
+  padding: 0
+  list-style: none
+
+body
+  font-family: Arial
+  font-size: 10pt
+  font-weight: normal
+
+h1
+  font-family: Tahoma
+  font-size: 30pt
+  font-weight: bold
+  text-align: center
+  letter-spacing: 8px
+  margin-top: 62px
+
+  &.us-letter
+    margin-top: 46px
+
+  &.smaller
+    font-size: 20pt
+    letter-spacing: 6px
+
+h2
+  font-family: Tahoma
+  font-size: 10pt
+  text-align: center
+  margin: 10px 0 34px
+  letter-spacing: 6px
+  font-weight: normal
+
+  &.smaller
+    letter-spacing: 2px
+    margin: 10px 0 22px
+
+h3
+  font-size: 12pt
+  text-align: center
+  font-weight: bold
+  margin-top: 20px
+  text-transform: uppercase
+
+h4
+  font-size: 11pt
+  font-weight: bold
+  margin-top: 6px
+
+.left
+  text-align: left
+
+.right
+  text-align: right
+
+.center
+  text-align: center
+
+.justify
+  text-align: justify
+
+.inline
+  display: inline
+
+.block
+  display: block
+
+span.border
+  border-bottom: 2px solid
+  margin-top: 2px
+  display: block
+  margin-bottom: 14px
+
+.format-a4
+  width: 660px
+  margin-left: 66px
+
+.format-us-letter
+  width: 682px
+  margin-left: 66px
+
+/** Reset & Basics **/
+
+/** Color Scheme **/
+
+.color-default
+  color: #000
+
+span.border.color-default
+  border-color: #000
+
+/** Reset & Basics **/
+
+body
+  &.format-a4
+    width: 793.7px
+    margin: 0
+
+  &.us-letter
+    width: 816px
+    margin: 0
+
+h4.work_title
+  span
+    display: inline-block
+
+    &.left
+      width: 520px
+
+  &.format-us-letter span.left
+    width: 542px
+
+  span.right
+    width: 134px
+
+strong.work_strong
+  margin-top: 6px
+  margin-bottom: 6px
+  display: block
+  font-size: 10pt
+
+ul
+  &.disc li
+    list-style: disc outside
+    margin-top: 2px
+    margin-left: 14px
+
+  &.beside li
+    display: inline
+    margin-right: 4px
+
+    span
+      margin: 0 4px 2px 6px
+
+    &.last-child
+      margin-right: 0
+
+      span
+        display: none
+
+@media print
+  body
+    &.format-a4
+      width: 793.7px
+      margin: 0
+
+    &.us-letter
+      width: 816px
+      margin: 0

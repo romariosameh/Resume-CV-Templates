@@ -1,0 +1,59 @@
+/** Reset & Basics **/
+*{margin: 0; padding: 0; list-style: none;}
+body{font-family: Times New Roman;font-size: 10pt;font-weight: normal; text-align: left;}
+h1{font-family: Cambria;font-size: 24pt;letter-spacing: 6px;}
+h1.format-us-letter{margin-top: 20px;}
+h1.smaller{font-size: 20pt;letter-spacing: 4px;}
+h2{font-family: Cambria;font-size: 10pt; margin-top: 8px;letter-spacing: 4px;font-weight: normal;}
+h2.smaller{margin-top: 6px; letter-spacing: 2px;}
+h3{font-size: 14pt;text-transform: uppercase; font-family: Calibri; margin-bottom: 6px;}
+h4{font-size: 11pt;margin-top: 6px;}
+.right{text-align: right;}
+.block{display: block;}
+span.border{border-bottom: 2px solid;display: block;margin: 12px auto;}
+span.border2{border-bottom: 10px solid;display: block; margin: 30px auto;}
+span.border2.smaller{border-bottom: 6px solid; margin: 16px auto;}
+span.border.smaller2{margin: 14px auto 14px;}
+span.border.format-us-letter{margin-bottom: 10px;}
+.format-a4{width: 660px;margin-left: 66px;}
+.format-us-letter,h2.format-us-letter{width: 682px; margin-left: 66px;}
+span.border2.format-us-letter{border-bottom: 6px solid; margin: 30px auto;}
+/** Reset & Basics **/
+
+/** Color Scheme **/
+.color-default{color: #000;}
+span.border.color-default{border-color: #b4b4b5;}
+span.border2.color-default{border-color: #b4b4b5;}
+/** Reset & Basics **/
+
+body.format-a4{width: 793.7px; margin:0;}
+body.us-letter{width: 816px; margin:0;}
+table.info{margin-top: 40px; text-align: right;}
+table.info.format-us-letter{margin-top: 30px;}
+table.info td{vertical-align: top;}
+table.info td.person{width: 400px; text-align: left;}
+table.info td p.small_space{margin-top: 4px; line-height: 26px;}
+table.info td p.small_space.smaller{line-height: 16px;}
+.model1{margin-bottom: 10px;}
+.model1.format-us-letter{margin-bottom: 14px;}
+.work_title h4{margin: 0;}
+.work_title .left{width: 520px;}
+.work_title.format-us-letter .left{width: 542px;}
+.work_title .right{width: 134px;}
+strong.work_strong{margin-top: 4px;margin-bottom: 4px;display: block;font-size: 10pt;}
+ul.disc li{list-style: disc outside;margin-top: 8px;margin-left: 40px;}
+ul.disc.format-us-letter li{margin-top: 4px;}
+ul.beside li{display: inline;margin-right: 4px;}
+ul.beside li span{margin: 0 4px 2px 6px;}
+ul.beside li.last-child{margin-right: 0;}
+ul.beside li.last-child span{display: none;}
+@media print {
+    body.format-a4 {
+        width: 793.7px;
+        margin: 0;
+    }
+    body.us-letter {
+        width: 816px;
+        margin: 0;
+    }
+}

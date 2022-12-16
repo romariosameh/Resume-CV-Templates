@@ -1,0 +1,445 @@
+/* Reset & Basics */
+
+*, table, tr, td, span, img, h1, h2, h3, h4, h5, h6, p, ul, ol, li
+  margin: 0
+  padding: 0
+  list-style: none
+
+body
+  font-family: Arial
+  font-size: 10pt
+
+h1
+  font-size: 24pt
+  font-family: Verdana
+  margin-top: 44px
+  margin-bottom: 16px
+  letter-spacing: 6px
+
+h2
+  font-size: 10pt
+  font-family: Verdana
+  font-weight: normal
+  letter-spacing: 6px
+
+h3
+  font-size: 14pt
+  font-family: Tahoma
+  margin-bottom: 18px
+  text-transform: uppercase
+  letter-spacing: 4px
+
+h4
+  font-size: 10pt
+
+h5
+  font-size: 10pt
+  margin: 6px 0
+
+/* Reset & Basics */
+
+/* Main Structure */
+
+.col1
+  width: 16px
+
+.col2
+  width: 256px
+  vertical-align: top
+
+.col3
+  width: 24px
+
+.col4
+  vertical-align: top
+
+.col5
+  width: 30px
+
+.row1
+  height: 40px
+
+  &.smaller
+    height: 24px
+
+.row4
+  height: 22px
+
+/* Main Structure */
+
+.edu_main_title
+  margin-top: 32px
+
+.cert_title
+  margin-top: 84px
+
+.cert_title2
+  margin-top: 54px
+
+.pub_title
+  margin-top: 12px
+
+.patents_title
+  margin-top: 44px
+
+.patents_title2
+  margin-top: 34px
+
+.social_title
+  margin-top: 56px
+
+.social_title2
+  margin-top: 38px
+
+.col2 table
+  width: 100%
+
+  tr
+    &.center
+      text-align: center
+
+      img
+        margin: 10px 0 32px
+
+    .bg
+      height: 34px
+
+  .padding
+    width: 16px
+
+    &.padding_bottom
+      height: 18px
+
+.contact span
+  margin-bottom: 16px
+  background: left center no-repeat
+  text-indent: 24px
+  display: block
+
+  &.phone
+    background-image: url(images/phone1.png)
+
+  &.email
+    background-image: url(images/email1.png)
+
+  &.address
+    background-image: url(images/address1.png)
+
+.edu_margin
+  margin-bottom: 18px
+
+h4.edu_title
+  margin-bottom: 6px
+
+tr.skills
+  height: 30px
+
+.skills_item
+  width: 118px
+
+.col2
+  table.progress
+    display: inline-block
+    width: 106px
+    height: 10px
+
+    td
+      height: 10px
+
+      &.one
+        width: 22px
+
+      &.two
+        width: 42px
+
+      &.three
+        width: 64px
+
+      &.four
+        width: 84px
+
+      &.five
+        width: 106px
+
+  ul.disc li
+    list-style: disc outside
+    margin-left: 16px
+    margin-bottom: 8px
+
+p.inline
+  margin-bottom: 6px
+
+.col4
+  .border
+    display: block
+    width: 100%
+    height: 4px
+    margin-top: 38px
+
+  h3
+    margin-top: 46px
+
+    &.smaller
+      margin-top: 12px
+
+.work_margin
+  margin-bottom: 52px
+
+ul.work_margin.smaller
+  margin-bottom: 36px
+
+h4.work_title strong
+  text-align: right
+  display: inline-block
+
+  &.left
+    text-align: left
+
+ul.work_margin li, .col4 ul.work.smaller li ul.work_margin li
+  margin-bottom: 0
+  list-style: inside disc
+  margin-top: 8px
+
+.ref td
+  width: 234px
+
+  h5
+    margin: 6px 0
+
+/* Format A4 */
+
+.col4.format-a4
+  width: 470px
+
+.row3
+  &.format-a4
+    height: 30px
+
+  &.smaller.format-a4
+    height: 70px
+
+h4.work_title strong
+  &.format-a4
+    width: 120px
+
+  &.left.format-a4
+    width: 348px
+
+/* Format A4 */
+
+/* Format US Letter */
+
+.col4.format-us-letter
+  width: 490px
+
+.row3
+  &.format-us-letter
+    height: 8px
+
+  &.smaller.format-us-letter
+    height: 52px
+
+h4.work_title strong
+  &.format-us-letter
+    width: 120px
+
+  &.left.format-us-letter
+    width: 370px
+
+/* Format US Letter */
+
+/* Color Default */
+
+.color-default
+  color: #121212
+
+.bg1.color-default
+  background: #4eb7e9
+
+.bg2.color-default
+  background: #555555
+
+.bg3.color-default
+  background: #a0bee0
+
+.contact.color-default
+  color: #fff
+
+.border.color-default
+  background-color: #555555
+
+h5.color-default
+  color: #808080
+
+table.progress.color-default
+  background-color: #e1e1e1
+
+.col2 table.progress.color-default td
+  background-color: #4db7e8
+
+/* Color Default */
+
+/* Color Carrot */
+
+.color-carrot
+  color: #121212
+
+.bg1.color-carrot
+  background: #f2d9bb
+
+.bg2.color-carrot
+  background: #c78269
+
+.bg3.color-carrot
+  background: #e3d9cc
+
+.contact.color-carrot
+  color: #ffffff
+
+.border.color-carrot
+  background-color: #c78269
+
+h5.color-carrot
+  color: #808080
+
+table.progress.color-carrot
+  background-color: #e1e1e1
+
+  td
+    background-color: #c78269
+
+/* Color Carrot */
+
+/* Color Dark */
+
+.color-dark
+  color: #121212
+
+.bg1.color-dark
+  background: #3d3c3c
+
+.bg2.color-dark
+  background: #c8c7c2
+
+.bg3.color-dark
+  background: #716f6d
+
+.contact.color-dark
+  color: #121212
+
+.border.color-dark
+  background-color: #c8c7c2
+
+h5.color-dark
+  color: #808080
+
+table.progress.color-dark
+  background-color: #e1e1e1
+
+  td
+    background-color: #716f6d
+
+ul.contact.color-dark li
+  &.phone
+    background-image: url(images/phone2.png)
+
+  &.email
+    background-image: url(images/email2.png)
+
+  &.address
+    background-image: url(images/address2.png)
+
+/* Color Dark */
+
+/* Color Green */
+
+.color-green
+  color: #121212
+
+.bg1.color-green
+  background: #65958c
+
+.bg2.color-green
+  background: #33514b
+
+.bg3.color-green
+  background: #82b5ac
+
+.contact.color-green
+  color: #fff
+
+.border.color-green
+  background-color: #33514b
+
+h5.color-green
+  color: #808080
+
+table.progress.color-green
+  background-color: #e1e1e1
+
+  td
+    background-color: #65958c
+
+/* Color Green */
+
+/* Color Purple */
+
+.color-purple
+  color: #121212
+
+.bg1.color-purple
+  background: #b7b9d3
+
+.bg2.color-purple
+  background: #6a6f95
+
+.bg3.color-purple
+  background: #d2d4e2
+
+.contact.color-purple
+  color: #ffff
+
+.border.color-purple
+  background-color: #6a6f95
+
+h5.color-purple
+  color: #808080
+
+table.progress.color-purple
+  background-color: #e1e1e1
+
+  td
+    background-color: #6a6f95
+
+/* Color Purple */
+
+/* Color Yellow */
+
+.color-yellow
+  color: #121212
+
+.bg1.color-yellow
+  background: #dbb328
+
+.bg2.color-yellow
+  background: #3a3938
+
+.bg3.color-yellow
+  background: #f7db71
+
+.contact.color-yellow
+  color: #fff
+
+.border.color-yellow
+  background-color: #3a3938
+
+h5.color-yellow
+  color: #808080
+
+table.progress.color-yellow
+  background-color: #e1e1e1
+
+  td
+    background-color: #dbb227
+
+/* Color Yellow */

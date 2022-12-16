@@ -1,0 +1,184 @@
+/** Reset & Basics **/
+
+*
+  margin: 0
+  padding: 0
+  list-style: none
+
+body
+  font-family: Calibri
+  font-size: 10pt
+  font-weight: normal
+  text-align: left
+
+h1
+  font-family: Tahoma
+  font-size: 30pt
+  letter-spacing: 8px
+
+  &.format-us-letter
+    margin-top: 20px
+
+  &.smaller
+    font-size: 24pt
+    letter-spacing: 6px
+
+h2
+  font-family: Tahoma
+  font-size: 10pt
+  margin-top: 8px
+  letter-spacing: 4px
+  font-weight: normal
+
+  &.smaller
+    margin-top: 4px
+    letter-spacing: 4px
+
+h3
+  font-size: 12pt
+  text-transform: uppercase
+  font-family: Cambria
+
+h4
+  font-size: 11pt
+  margin-top: 6px
+
+.right
+  text-align: right
+
+.block
+  display: block
+
+span.border
+  border-bottom: 2px solid
+  display: block
+  margin: 28px auto 26px
+
+  &.smaller
+    margin: 14px auto 0px
+
+  &.format-us-letter
+    margin: 18px auto 16px
+
+.format-a4
+  width: 660px
+  margin-left: 66px
+
+.format-us-letter, h2.format-us-letter
+  width: 682px
+  margin-left: 66px
+
+/** Reset & Basics **/
+
+/** Color Scheme **/
+
+.color-default
+  color: #000
+
+span.border.color-default
+  border-color: #000
+
+h3.section_title.color-default
+  background-color: #e4e4e4
+
+/** Reset & Basics **/
+
+body
+  &.format-a4
+    width: 793.7px
+    margin: 0
+
+  &.us-letter
+    width: 816px
+    margin: 0
+
+h3.section_title
+  vertical-align: middle
+  text-align: center
+  margin-bottom: 2px
+  margin-top: 24px
+  line-height: 18pt
+
+  &.smaller
+    margin-top: 18px
+
+  &.smaller2
+    margin-top: 18px
+    margin-bottom: 16px
+
+table.info
+  margin-top: 62px
+
+  &.format-us-letter
+    margin-top: 20px
+
+  td
+    vertical-align: top
+
+    &.person
+      width: 508px
+
+    p.small_space
+      margin-top: 4px
+      line-height: 20px
+
+      &.smaller
+        line-height: 16px
+
+.model1
+  margin-bottom: 14px
+
+  &.format-us-letter
+    margin-bottom: 12px
+
+.work_title
+  h4
+    margin: 0
+
+  .left
+    width: 520px
+
+  &.format-us-letter .left
+    width: 542px
+
+  .right
+    width: 134px
+
+strong.work_strong
+  margin-top: 4px
+  margin-bottom: 4px
+  display: block
+  font-size: 10pt
+
+ul
+  &.disc
+    li
+      list-style: disc outside
+      margin-top: 2px
+      margin-left: 40px
+
+    &.format-us-letter li
+      margin-top: 4px
+
+  &.beside li
+    display: inline
+    margin-right: 4px
+
+    span
+      margin: 0 4px 2px 6px
+
+    &.last-child
+      margin-right: 0
+
+      span
+        display: none
+
+@media print
+  body
+    &.format-a4
+      width: 793.7px
+      margin: 0
+
+    &.us-letter
+      width: 816px
+      margin: 0

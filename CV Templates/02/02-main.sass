@@ -1,0 +1,150 @@
+/** Reset & Basics **/
+
+*
+  margin: 0
+  padding: 0
+  list-style: none
+
+body
+  font-family: Calibri
+  font-size: 10pt
+  font-weight: normal
+  text-align: left
+
+h1
+  font-family: Verdana
+  font-size: 28pt
+  letter-spacing: 8px
+  margin-top: 62px
+
+  &.format-us-letter
+    margin-top: 20px
+
+  &.smaller
+    font-size: 20pt
+    letter-spacing: 6px
+
+h2
+  font-family: Verdana
+  font-size: 10pt
+  margin: 14px 0 24px
+  letter-spacing: 6px
+  font-weight: normal
+
+  &.smaller
+    letter-spacing: 2px
+    margin: 10px 0 0px
+
+h3
+  font-size: 12pt
+  margin-top: 22px
+  text-transform: uppercase
+  font-family: Georgia
+
+  &.smaller
+    margin-top: 20px
+
+  &.smaller2
+    margin-top: 28px
+
+h4
+  font-size: 11pt
+  margin-top: 6px
+
+.right
+  text-align: right
+
+.block
+  display: block
+
+span.border
+  border-bottom: 2px solid
+  margin-top: 2px
+  display: block
+  margin-bottom: 14px
+
+  &.format-us-letter
+    margin-bottom: 10px
+
+.format-a4, h2.format-a4
+  width: 660px
+  margin-left: 66px
+
+.format-us-letter, h2.format-us-letter
+  width: 682px
+  margin-left: 66px
+
+/** Reset & Basics **/
+
+/** Color Scheme **/
+
+.color-default
+  color: #000
+
+span.border.color-default
+  border-color: #000
+
+/** Reset & Basics **/
+
+body
+  &.format-a4
+    width: 793.7px
+    margin: 0
+
+  &.us-letter
+    width: 816px
+    margin: 0
+
+.model1
+  margin-bottom: 18px
+
+  &.format-us-letter
+    margin-bottom: 14px
+
+h4.work_title
+  span
+    display: inline-block
+
+    &.left
+      width: 520px
+
+  &.format-us-letter span.left
+    width: 542px
+
+  span.right
+    width: 134px
+
+strong.work_strong
+  margin-top: 4px
+  margin-bottom: 4px
+  display: block
+  font-size: 10pt
+
+ul
+  &.disc li
+    list-style: disc outside
+    margin-top: 2px
+    margin-left: 14px
+
+  &.beside li
+    display: inline
+    margin-right: 4px
+
+    span
+      margin: 0 4px 2px 6px
+
+    &.last-child
+      margin-right: 0
+
+      span
+        display: none
+
+@media print
+  body
+    &.format-a4
+      width: 793.7px
+      margin: 0
+
+    &.us-letter
+      width: 816px
+      margin: 0

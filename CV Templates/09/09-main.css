@@ -1,0 +1,130 @@
+/* Reset & Basics */
+*,table,tr,td,span,img,h1,h2,h3,h4,h5,h6,p,ul,ol,li{margin: 0; padding: 0; list-style: none;}
+body{font-family: Helvetica; font-size: 10pt; color: #121212}
+h1{font-size: 28pt; font-family: Cambria; text-transform: uppercase; text-align: right; letter-spacing: 4px;}
+h1 strong{display: block;color: #808080;}
+h2{font-size: 10pt; font-family: Cambria; text-transform: uppercase; text-align: right; margin-top: 10px; letter-spacing: 2px;}
+h3{font-size: 14pt; text-transform: uppercase; margin-top: 110px; margin-bottom: 18px; letter-spacing: 4px;}
+h3.v2{margin-top: 66px;}
+h3.v3{margin-top: 4px;}
+h3.v4{margin-top: 74px;}
+.col2 h3{letter-spacing: 2px;}
+h3 span.fa-solid{margin-right: 8px;}
+h4{font-size: 10pt; color: #808080; text-transform: uppercase;}
+h5{font-size:10pt; margin: 4px 0;}
+ul{margin-left: 16px;}
+ul li{list-style: disc outside; margin-bottom: 4px;}
+.border{height: 2px; width: 100%; background-color: #b3b0b0; margin-top: 6px; display: block;}
+/* Reset & Basics */
+/* Main Structure */
+.col1{width: 40px;}
+.col2{width: 224px; vertical-align: top;}
+.col3{width: 26px}
+.col4{width: 34px;}
+.col5{vertical-align: top;}
+.col6{width: 40px;}
+.row1{height: 56px;}
+/* Main Structure */
+
+p.contact{margin-bottom: 8px;}
+p.contact span{width: 20px; height: 20px; border-radius: 10px; color: #ebebeb; font-size: 8pt; text-align: center; line-height: 15pt; margin-right: 4px;}
+p.cert{margin-bottom: 10px;}
+tr.skills{height: 30px;}
+.skills_item{width: 114px;}
+table.progress{display: inline-block; width: 112px; height: 4px;}
+table.progress td{height: 4px;}
+table.progress td.one{width: 22px;}
+table.progress td.two{width: 44px;}
+table.progress td.three{width: 68px;}
+table.progress td.four{width: 90px;}
+table.progress td.five{width: 112px;}
+ul.work{margin-bottom: 16px; margin-top: 10px;}
+p.edu{margin-bottom: 12px;}
+.ref td{width: 234px;}
+
+
+
+/* Format A4 */
+.format-a4.col5{width: 434px}
+.format-a4.row3{height: 116px;}
+.format-a4.row3.v2{height: 170px;}
+/* Format A4 */
+
+/* Format US Letter */
+.format-us-letter.col5{width: 452px}
+.format-us-letter.row3{height: 50px;}
+.format-us-letter.row3.v2{height: 104px;}
+/* Format US Letter */
+
+
+/* Color Default */
+.color-default{color: #121212;}
+p.social.color-default strong{color: #808080;}
+
+.color-default.bg1{background-color: #ebebeb}
+p.contact.color-default span{background-color: #1b9399}
+table.progress.color-default td{background-color: #1b9399;}
+table.progress.color-default{background-color: #bebec2;}
+h2.color-default{color: #1b9399;}
+h5.color-default{color: #1b9399;}
+/* Color Default */
+
+/* Color Carrot */
+.color-carrot{color: #121212;}
+p.social.color-carrot strong{color: #808080;}
+.color-carrot.bg1{background-color: #ebebeb}
+
+p.contact.color-carrot span{background-color: #dc8564}
+table.progress.color-carrot td{background-color: #dc8564 ;}
+table.progress.color-carrot{background-color: #bebec2 ;}
+h2.color-carrot{color: #dc8564 ;}
+h5.color-carrot{color: #dc8564 ;}
+/* Color Carrot */
+
+/* Color Blue */
+.color-blue{color: #121212;}
+p.social.color-blue strong{color: #808080;}
+.color-blue.bg1{background-color: #ebebeb}
+
+p.contact.color-blue span{background-color: #3e98d3 }
+table.progress.color-blue td{background-color: #3e98d3;}
+table.progress.color-blue{background-color: #bebec2;}
+h2.color-blue{color: #3e98d3;}
+h5.color-blue{color: #3e98d3;}
+/* Color Blue */
+
+/* Color Red */
+.color-red{color: #121212;}
+p.social.color-red strong{color: #808080;}
+.color-red.bg1{background-color: #ebebeb}
+
+p.contact.color-red span{background-color: #b21f2a }
+table.progress.color-red td{background-color: #b21f2a ;}
+table.progress.color-red{background-color: #bebec2 ;}
+h2.color-red{color: #b21f2a ;}
+h5.color-red{color: #b21f2a ;}
+/* Color Red */
+
+/* Color Purple */
+.color-purple{color: #121212;}
+p.social.color-purple strong{color: #808080;}
+.color-purple.bg1{background-color: #ebebeb}
+
+p.contact.color-purple span{background-color: #6a6f95  }
+table.progress.color-purple td{background-color: #6a6f95  ;}
+table.progress.color-purple{background-color: #bebec2  ;}
+h2.color-purple{color: #6a6f95;}
+h5.color-purple{color: #6a6f95;}
+/* Color Purple */
+
+/* Color Orange */
+.color-orange{color: #121212;}
+p.social.color-orange strong{color: #808080;}
+.color-orange.bg1{background-color: #ebebeb}
+
+p.contact.color-orange span{background-color: #d3a06c   }
+table.progress.color-orange td{background-color: #d3a06c   ;}
+table.progress.color-orange{background-color: #bebec2   ;}
+h2.color-orange{color: #d3a06c ;}
+h5.color-orange{color: #d3a06c ;}
+/* Color Orange */
